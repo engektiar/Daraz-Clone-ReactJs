@@ -5,7 +5,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import logo from "../../Imges/DarazLogo/daraz.png";
 import logo2 from "../../Imges/DarazLogo/logo2.png";
 import AutoComp from "./Autocom";
-import SearchIcon from "@mui/icons-material/Search";
+
 const Section = styled.section`
   background: #ffffff;
   margin-top: 20px;
@@ -63,8 +63,7 @@ const Header = () => {
           <Grid container spacing={2}>
             <Grid item xs={6} md={3}>
               <div className="logo icon">
-                {/* <img src={logo} alt="" className="logoimg" /> */}
-                ekDaraz
+                <img src={logo} alt="" className="logoimg" />
               </div>
             </Grid>
             <Grid item xs={6} md={6}>
